@@ -5,6 +5,10 @@ module.exports = {
   theme: {
     extend: {},
   },
+  purge: [
+    "./index.html", // Ruta al archivo index.html
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
   variants: {},
   plugins: [],
   corePlugins: {
