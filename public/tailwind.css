@@ -552,11 +552,6 @@ video {
   position: relative;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -765,10 +760,6 @@ video {
 
 .bg-slate-200\/50 {
   background-color: rgb(226 232 240 / 0.5);
-}
-
-.bg-slate-300\/50 {
-  background-color: rgb(203 213 225 / 0.5);
 }
 
 .bg-slate-400\/50 {
