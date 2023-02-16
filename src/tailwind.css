@@ -16,4 +16,20 @@
   .card {
     @apply w-3/5 h-full flex-none bg-gray-500 shadow-lg rounded-lg bg-cover bg-center;
   }
+
+  .contenedor-izq-der {
+    @apply px-3 bg-gradient-to-t from-oscuro via-[#01090e] to-oscuro flex flex-col;
+  }
+
+  .contenedor-der-izq {
+    @apply px-3 bg-gradient-to-t from-[#01090e] via-oscuro to-[#01090e] flex flex-col;
+  }
+
+  .parrafo-geo {
+    @apply text-sm text-gray-200 h-full self-center border-b-4 border-r-4 px-1 pb-2;
+  }
+
+  .img-geo {
+    @apply w-40 h-60 rounded-lg shadow-md shadow-claro;
+  }
 }
