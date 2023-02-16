@@ -5,7 +5,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        gye1: 'url("../public/imgs/fondos/fondo_ec_6.jpg")',
+        ecuador: 'url("../public/imgs/fondos/fondo_ec_6.jpg")',
+        banos: 'url("../public/imgs/ciudades/banos_1.jpeg")',
+        cuenca: 'url("../public/imgs/ciudades/cuenca_2.jpeg")',
+        galap: 'url("../public/imgs/ciudades/galapagos_4.jpeg")',
+        gye: 'url("../public/imgs/ciudades/gye_2.jpeg")',
+        loja: 'url("../public/imgs/ciudades/loja_1.jpeg")',
+        manta: 'url("../public/imgs/ciudades/manta_2.jpg")',
+        mindo: 'url("../public/imgs/ciudades/mindo_2.jpeg")',
+        montan: 'url("../public/imgs/ciudades/montanita_1.jpeg")',
+        quito: 'url("../public/imgs/ciudades/quito_1.jpeg")',
+        salinas: 'url("../public/imgs/ciudades/salinas_1.png")',
       },
       colors: {
         primario: "#022534",
