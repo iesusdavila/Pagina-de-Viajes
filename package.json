@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwind build ./src/tailwind.css -o ./public/tailwind.css"
+    "build": "tailwind build ./src/tailwind.css -o ./public/tailwind.css",
+    "tw-build": "tailwind -i ./src/tailwind.css -o ./public/css/tailwind.css"
   },
   "keywords": [
     "JS",
