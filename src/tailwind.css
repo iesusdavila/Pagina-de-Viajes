@@ -18,11 +18,11 @@
   }
 
   .contenedor-izq-der {
-    @apply px-3 bg-gradient-to-t from-oscuro via-[#01090e] to-oscuro flex flex-col;
+    @apply px-3 bg-gradient-to-t from-oscuro via-[#111004] to-oscuro flex flex-col;
   }
 
   .contenedor-der-izq {
-    @apply px-3 bg-gradient-to-t from-[#01090e] via-oscuro to-[#01090e] flex flex-col;
+    @apply px-3 bg-gradient-to-tr from-[#050c11] via-oscuro to-[#01090e] flex flex-col;
   }
 
   .parrafo-geo {

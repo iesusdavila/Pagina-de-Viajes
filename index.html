@@ -14,15 +14,15 @@
   <header class="bg-ecuador bg-cover bg-bottom h-60 ">
     <div class="flex flex-col items-center justify-center h-auto">
       <ul class=" mt-6 text-oscuro font-semibold flex flex-row space-x-3 mb-8 w-full justify-center">
-        <li>Explorar</li>
-        <li>Geografía</li>
+        <li><a href="#explorar">Explorar</a></li>
+        <li><a href="#geografía">Geografía</a></li>
         <li class="w-auto flex items-center justify-center h-6">
           <div class="p-1 rounded-full bg-yellow-500/70">
             <img src="https://img.icons8.com/ios/256/virgin-of-quito.png" alt="" class="h-6">
           </div>
         </li>
         <li>Buscar</li>
-        <li>Regiones</li>
+        <li><a href="#regiones">Regiones</a></li>
       </ul>
       <div class="space-y-3 border-l-4 border-b-4 border-yellow-400 px-4 py-2 shadow-box">
         <h1 class="text-center text-white text-4xl font-bold">
@@ -36,7 +36,7 @@
   </header>
 
   <main class="bg-gradient-to-t from-oscuro via-[#09181e] to-oscuro">
-    <section id="explorar" class="mt-4 w-5/6 mx-auto my-0">
+    <section id="explorar" class="pt-4 w-5/6 mx-auto my-0">
       <article>
         <h2 class="text-center text-xl font-bold">Explora nuestra cultura</h2>
         <p class="text-center mt-2 w-4/5 mx-auto my-0 text-sm text-gray-300">Descubre la magia de nuestras ciudades,
@@ -139,9 +139,23 @@
         </div>
       </article>
     </section>
-    <section id="regiones">
+    <section id="regiones" class="pb-6 bg-gradient-to-t from-[#050e12] via-oscuro to-[#050e12]">
       <article>
-        <h2 class="text-center text-xl font-bold">Regiones</h2>
+        <h2 class="text-center text-xl font-bold py-4">Regiones</h2>
+      </article>
+      <article class="w-full px-5 h-full grid grid-rows-[0.5fr_1fr] gap-3">
+        <img src="./public/imgs/fondos/fondo_ec_8.jpg" alt=""
+          class="w-full h-full rounded-md shadow-sm shadow-yellow-50">
+        <div class="w-full grid grid-cols-[0.8fr_1fr] grid-rows-1 gap-3">
+          <img src="./public/imgs/ciudades/gye_1.jpeg" alt=""
+            class=" w-full h-full rounded-md shadow-sm shadow-yellow-50">
+          <div class="w-full h-full flex flex-col gap-3">
+            <img src="./public/imgs/fondos/fondo_ec_1.jpg" alt=""
+              class="w-full h-1/2 rounded-md  shadow-sm shadow-yellow-50">
+            <img src="./public/imgs/fondos/fondo_ec_4.jpg" alt=""
+              class="w-full h-1/2 rounded-md shadow-sm shadow-yellow-50">
+          </div>
+        </div>
       </article>
     </section>
 
